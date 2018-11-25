@@ -1,0 +1,116 @@
+body {
+    font-family: Calibri;
+}
+div {
+    padding: 5px;
+}
+ul {
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B4C4D;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #CB0520;
+}
+.textbox {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: auto;
+    padding: 12px 12px;
+    outline: #2cb27a;
+}
+.button {
+    margin-top: 12px;
+    padding: 12px 12px;
+    border: none;
+    text-decoration: none;
+    background-color: #4B4C4D;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    outline: none;
+}
+.button:hover {
+    background-color: #CB0520;
+}
+.selectbox {
+    width: 52%;
+    margin-top: 15px;
+    margin-left: auto;
+    padding: 12px 12px;
+    outline: none;
+}
+.datebox {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: auto;
+    padding: 12px 12px;
+    outline: none;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #4B4C4D;
+    color: #ffffff;
+    text-align: left;
+}
+
+td {
+    font-weight: bold;
+}
+tr:hover {
+    background-color: #CB0520;
+    color: #ffffff;
+}
+table, td, th {
+    border: 1px solid #C5C5C0;
+    padding: 8px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #ffffff;
+}
+p.result {
+    font-weight: bold;
+}
+.slidercontainer {
+    width: 100%;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 15px;
+    border-radius: 8px;
+    background: #8E9397;
+    outline: none;
+    transition: opacity .1s;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #CB0520;
+    cursor: pointer;
+}
