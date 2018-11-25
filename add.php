@@ -20,7 +20,7 @@
                     <input type="text" name="mobilenumber" id="mobilenumber" class="textbox" autocomplete="off" placeholder="შეიყვანეთ მომხმარებლის ტელეფონის ნომერი...">
                     <input type="text" name="referralid" id="referralid" class="textbox" autocomplete="off" placeholder="შეიყვანეთ რეფერალის პირადი ნომერი...">
                     <select name="service" id="service" class="selectbox" onchange="changeSelect()">
-                        <option value="">აირჩიეთ სერვისი</option>
+                        <option value="">აირჩიეთ სასურველი</option>
                         <?php
                         $query = "SELECT * FROM services";
                         $result = mysqli_query($link, $query);
@@ -31,7 +31,7 @@
                         ?>
                     </select>
                     <select name="days" id="days" class="selectbox" onchange="changeSelect()">
-                        <option value="">აირჩიეთ დღეები</option>
+                        <option value="">აირჩიეთ სასურველი დღეები</option>
                         <?php
                         $query = "SELECT * FROM days";
                         $result = mysqli_query($link, $query);
