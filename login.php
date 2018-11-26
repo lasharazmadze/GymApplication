@@ -36,7 +36,7 @@
                             header("Location: index.php");
                         }
                     } else {
-                        echo "<p align='center' class='result' style='color: #CB0520;'>მომხმარებლის სახელი ან პაროლი არასწორია.</p>";
+                        echo "<p align='center' class='result' style='color: #CB0520'>მომხმარებლის სახელი ან პაროლი არასწორია.</p>";
                     }
                 } elseif (strlen(filter_input(INPUT_POST, 'username')) == 0 or strlen(filter_input(INPUT_POST, 'password')) == 0) {
                     echo "<p align='center' class='result' style='color: #CB0520'>მომხმარებლის სახელის ან პაროლის ველი ცარიელია.</p>";

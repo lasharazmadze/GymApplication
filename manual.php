@@ -11,7 +11,7 @@
         <?php require './navbar.php'; ?>
         <div align="center">
             <br>
-            <h1 style="color: #0A6CB9">გვერდი მზადების პროცესშია</h1>
+            <h1 style="color: #CB0520">გვერდი მზადების პროცესშია</h1>
             <p>სახელი: test</p>
             <p>პაროლი: test</p>
         </div>

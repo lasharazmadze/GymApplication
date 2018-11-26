@@ -87,7 +87,7 @@
     if ($firstname != "") {
         $query = "INSERT INTO MEMBERS(FIRST_NAME, LAST_NAME, ID_NUMBER, MOBILE_NUMBER, REFERRAL_ID, SERVICE, DAYS, HOURS, REGISTRATION_DATE, NEXT_PAYMENT_DATE) VALUES ('$firstname', '$lastname', '$idnumber', '$mobilenumber', '$referralid', '$service', '$days', '$hours', '$registrationdate', '$nextpaymentdate')";
         if (mysqli_query($link, $query)) {
-            echo "<p align='center' class='result' style='color: #316691'>ახალი მომხმარებელი " . $firstname . " " . $lastname . " წარმატებით დაემატა მონაცემთა ბაზაში. მომდევნო გადახდის თარიღია " . $nextpaymentdate . "</p>";
+            echo "<p align='center' class='result' style='color: #CB0520'>ახალი მომხმარებელი " . $firstname . " " . $lastname . " წარმატებით დაემატა მონაცემთა ბაზაში. მომდევნო გადახდის თარიღია " . $nextpaymentdate . "</p>";
         } elseif (mysqli_errno($link) == 1062) {
             echo "<p align='center' class='result' style='color: #CB0520'>მომხმარებელი პირადი ნომრით " . $idnumber . " უკვე არსებობს მონაცემთა ბაზაში.";
         } else {

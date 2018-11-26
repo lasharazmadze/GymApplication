@@ -23,7 +23,7 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #316691;
+    background-color: #CB0520;
 }
 .textbox {
     width: 50%;
@@ -45,7 +45,7 @@ li a:hover {
     outline: none;
 }
 .button:hover {
-    background-color: #316691;
+    background-color: #CB0520;
 }
 .selectbox {
     width: 52%;
@@ -76,7 +76,7 @@ td {
     font-weight: bold;
 }
 tr:hover {
-    background-color: #316691;
+    background-color: #CB0520;
     color: #ffffff;
 }
 table, td, th {
@@ -111,6 +111,6 @@ p.result {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #316691;
+    background-color: #CB0520;
     cursor: pointer;
 }
