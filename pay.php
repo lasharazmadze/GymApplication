@@ -13,12 +13,12 @@ if ($_SESSION['paydate'] <= $currentdate) {
 if (mysqli_query($link, $query)) {
     $_SESSION['paymentsuccessmessage'] = "<p align='center' class='result' style='color: #CB0520'>გადახდის ოპერაცია წარმატებით შესრულდა.</p>";
     header('Location: results.php');
-    sleep(3);
+    sleep(1);
     exit();
 } else {
     $_SESSION['paymentfailuremessage'] = "<p align='center' class='result' style='color: #CB0520'>გადახდის ოპერაციისას დაფიქსირდა შეცდომა.</p>";
     header('Location: results.php');
-    sleep(3);
+    sleep(1);
     exit();
 }
 ?>
