@@ -71,7 +71,7 @@
     $query = "UPDATE MEMBERS SET FIRST_NAME = '$firstname', LAST_NAME = '$lastname', MOBILE_NUMBER = '$mobilenumber', REFERRAL_ID = '$referralid', SERVICE = '$service', DAYS = '$days', HOURS = '$hours' WHERE ID_NUMBER = '$idnumber'";
     if (filter_input(INPUT_POST, 'submit')) {
         if (mysqli_query($link, $query)) {
-            echo "<p align='center' class='result' style='color: #0A6CB9'>მონაცემები წარმატებით განახლდა.</p>";
+            echo "<p align='center' class='result' style='color: #316691'>მონაცემები წარმატებით განახლდა.</p>";
         } else {
             echo "<p align='center' class='result' style='color: #CB0520'>შეცდომა მონაცემების განახლებისას ." . mysqli_error($link);
         }

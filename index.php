@@ -72,7 +72,7 @@
                             $_SESSION['paydate'] = $row['NEXT_PAYMENT_DATE'];
                         }
                     } elseif (mysqli_num_rows($result) == 0) {
-                        echo "<p align='center' class='result' style='color: #CB0520'>მომხმარებელი პირადი ნომრით " . $idnumberval . " არ მოიძებნა მონაცემთა ბაზაში.</p>";
+                        echo "<p align='center' class='result' style='color: #316691'>მომხმარებელი პირადი ნომრით " . $idnumberval . " არ მოიძებნა მონაცემთა ბაზაში.</p>";
                     }
                 } else {
                     echo "<p align='center' class='result' style='color: #CB0520'>პირადი ნომრის შესაყვანი ველი ცარიელია.</p>";
